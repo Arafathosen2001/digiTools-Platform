@@ -1,16 +1,29 @@
 
+import { useState } from 'react'
 import './App.css'
+
 import Hero from './Component/Hero/Hero'
 import NavBar from './Component/Nav/NavBar'
+import AllProducts from './Component/Products/AllProducts/AllProducts'
 import Rating from './Component/Rating/Rating'
+import Tab from './Component/Tab/Tab'
+import CatrProduct from './Component/Products/Cart/CatrProduct';
+
+
 
 function App() {
-
+  const [selectTab, setSelectTab] = useState("Products");
+  const [selectProductData, setSelectProductData] = useState([]);
+  
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar selectProductData={selectProductData}></NavBar>
       <Hero></Hero>
       <Rating></Rating>
+      <Heading1></Heading1>
+      <Tab selectProductData={selectProductData} selectTab={selectTab} setSelectTab={setSelectTab}></Tab>
+      {selectTab === "Products" ? <AllProducts PromisData={PromisData} selectProductData={selectProductData} setSelectProductData={setSelectProductData}></AllProducts> : <CatrProduct selectProductData={selectProductData} setSelectProductData={setSelectProductData}></CatrProduct>}
+      
     </>
   )
 }

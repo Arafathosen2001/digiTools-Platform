@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "Starter",
+        "description": "Perfect for individuals and small teams getting started",
+        "price": 29,
+        "period": "monthly",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+            "50+ professional templates",
+            "Basic ATS optimization",
+            "Export to PDF & Word",
+            "Email support"
+        ],
+        "icon": "https://i.ibb.co.com/M5VZp6bq/operation.png"
+    },
+    {
+        "id": 2,
+        "name": "Pro",
+        "description": "Most popular choice for job seekers and professionals",
+        "price": 49,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+            "100+ premium templates",
+            "Advanced ATS optimization",
+            "Export to PDF, Word & TXT",
+            "Cover letter builder",
+            "Priority email support"
+        ],
+        "icon": "https://i.ibb.co.com/bgXdXVtW/design-tool.png"
+    },
+    {
+        "id": 3,
+        "name": "Premium",
+        "description": "Everything you need for serious career growth",
+        "price": 79,
+        "period": "monthly",
+        "tag": "Best Seller",
+        "tagType": "best seller",
+        "features": [
+            "Unlimited premium templates",
+            "AI-powered content suggestions",
+            "Advanced ATS optimization",
+            "LinkedIn profile optimization",
+            "Interview preparation tools",
+            "24/7 priority support"
+        ],
+        "icon": "https://i.ibb.co.com/k2WtRV6g/portfolio.png"
+    },
+    {
+        "id": 4,
+        "name": "Starter",
+        "description": "Perfect for individuals and small teams getting started",
+        "price": 290,
+        "period": "yearly",
+        "tag": "",
+        "tagType": "",
+        "features": [
+            "50+ professional templates",
+            "Basic ATS optimization",
+            "Export to PDF & Word",
+            "Email support"
+        ],
+        "icon": "https://i.ibb.co.com/wF83MTqS/social-media.png"
+    },
+    {
+        "id": 5,
+        "name": "Pro",
+        "description": "Most popular choice for job seekers and professionals",
+        "price": 470,
+        "period": "yearly",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+            "100+ premium templates",
+            "Advanced ATS optimization",
+            "Export to PDF, Word & TXT",
+            "Cover letter builder",
+            "Priority email support"
+        ],
+        "icon": "https://i.ibb.co.com/Kcf2R9jn/writing-2327400-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Premium",
+        "description": "Everything you need for serious career growth",
+        "price": 750,
+        "period": "yearly",
+        "tag": "Best Seller",
+        "tagType": "best seller",
+        "features": [
+            "Unlimited premium templates",
+            "AI-powered content suggestions",
+            "Advanced ATS optimization",
+            "LinkedIn profile optimization",
+            "Interview preparation tools",
+            "24/7 priority support"
+        ],
+        "icon": "https://i.ibb.co.com/yn68s3X3/camera-8775444-1.png"
+    },
+    {
+        "id": 7,
+        "name": "One-Time Resume",
+        "description": "Single professional resume creation",
+        "price": 89,
+        "period": "one-time",
+        "tag": "",
+        "tagType": "",
+        "features": [
+            "1 custom resume",
+            "ATS friendly format",
+            "PDF & Word export",
+            "Basic review"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/869/869661.png"
+    },
+    {
+        "id": 8,
+        "name": "Career Booster Pack",
+        "description": "Resume + Cover Letter + LinkedIn",
+        "price": 149,
+        "period": "one-time",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+            "Professional resume",
+            "Tailored cover letter",
+            "LinkedIn profile optimization",
+            "ATS optimization",
+            "3 rounds of revisions"
+        ],
+        "icon": "https://png.pngtree.com/png-vector/20241009/ourlarge/pngtree-fast-food-restaurant-icon-png-image_14033430.png"
+    },
+    {
+        "id": 9,
+        "name": "Executive Package",
+        "description": "Full career transformation package",
+        "price": 299,
+        "period": "one-time",
+        "tag": "Best Seller",
+        "tagType": "best seller",
+        "features": [
+            "Executive resume",
+            "Cover letter + Thank you note",
+            "LinkedIn makeover",
+            "Personal branding kit",
+            "Unlimited revisions (30 days)"
+        ],
+        "icon": "https://png.pngtree.com/png-vector/20230801/ourmid/pngtree-fresh-food-icon-with-bread-and-produce-vector-png-image_6829151.png"
+    }
+]

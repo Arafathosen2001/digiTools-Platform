@@ -4,7 +4,7 @@ import PlayImg from '../../assets/Play.png';
 
 const Hero = () => {
     return (
-        <div className='container'>
+        <div className='container py-20'>
             <div className="hero min-h-[60vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse sm:gap-40">
                     <img
