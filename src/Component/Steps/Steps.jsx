@@ -28,7 +28,7 @@ const Steps = () => {
                         <div className=" grid grid-cols-3 justify-end">
                             <p></p>
                             <p></p>
-                            <p className='bg-linear-to-r from-primary to-secondary text-white text-center rounded-full'>01</p>
+                            <p className='bg-linear-to-r from-primary to-secondary text-white text-center rounded-full'>02</p>
                         </div>
                         <div className="flex flex-col items-center text-center gap-3">
                             <img src={img1} alt="User" />
@@ -44,7 +44,7 @@ const Steps = () => {
                         <div className=" grid grid-cols-3 justify-end">
                             <p></p>
                             <p></p>
-                            <p className='bg-linear-to-r from-primary to-secondary text-white text-center rounded-full'>01</p>
+                            <p className='bg-linear-to-r from-primary to-secondary text-white text-center rounded-full'>03</p>
                         </div>
                         <div className="flex flex-col items-center text-center gap-3">
                             <img src={img1} alt="User" />

@@ -7,7 +7,7 @@ const SimplePricing = () => {
                 <div className="card-body">
                     <div className=" absolute top-[-12px] left-14 grid grid-cols-3 justify-end">
                         <p></p>
-                        <p className='bg-amber-200 text-black text-center rounded-4xl'>Most Popular</p>
+                        <p className='bg-amber-200 text-black text-center rounded-4xl'></p>
                         <p></p>
                     </div>
                     <div className="">
@@ -46,11 +46,11 @@ const SimplePricing = () => {
                     </div>
                 </div>
             </div>
-            <div className="relative card bg-base-100 active:bg-primary shadow-sm">
+            <div className="relative card bg-primary  active:bg-base-100 active:text-black shadow-sm text-white">
                 <div className="card-body">
-                    <div className=" absolute top-[-12px] left-14 grid grid-cols-3 justify-end">
+                    <div className=" absolute top-[-15px] left-14 grid grid-cols-3 justify-end">
                         <p></p>
-                        <p className='bg-amber-200 text-black text-center rounded-4xl'>Most Popular</p>
+                        <p className='bg-amber-200 text-black text-center rounded-4xl p-1'>Most Popular</p>
                         <p></p>
                     </div>
                     <div className="">
@@ -85,7 +85,7 @@ const SimplePricing = () => {
                         </li>
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary active:bg-white active:text-black btn-block rounded-4xl">Subscribe</button>
+                        <button className="btn bg-white  active:bg-primary active:text-black btn-block rounded-4xl">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ const SimplePricing = () => {
                 <div className="card-body">
                     <div className=" absolute top-[-12px] left-14 grid grid-cols-3 justify-end">
                         <p></p>
-                        <p className='bg-amber-200 text-black text-center rounded-4xl'>Most Popular</p>
+                        <p className='bg-amber-200 text-black text-center rounded-4xl'></p>
                         <p></p>
                     </div>
                     <div className="">
