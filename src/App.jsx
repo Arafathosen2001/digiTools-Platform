@@ -8,6 +8,8 @@ import AllProducts from './Component/Products/AllProducts/AllProducts'
 import Rating from './Component/Rating/Rating'
 import Tab from './Component/Tab/Tab'
 import CatrProduct from './Component/Products/Cart/CatrProduct';
+import Steps from './Component/Steps/Steps'
+import Heading1 from './Component/Hadding/Heading1'
 
 const DataPromis = async () => {
   const res = await fetch("/CardData.json");
@@ -28,7 +30,7 @@ function App() {
       <Heading1></Heading1>
       <Tab selectProductData={selectProductData} selectTab={selectTab} setSelectTab={setSelectTab}></Tab>
       {selectTab === "Products" ? <AllProducts PromisData={PromisData} selectProductData={selectProductData} setSelectProductData={setSelectProductData}></AllProducts> : <CatrProduct selectProductData={selectProductData} setSelectProductData={setSelectProductData}></CatrProduct>}
-      
+      <Steps></Steps>
     </>
   )
 }
