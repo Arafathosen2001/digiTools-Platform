@@ -9,7 +9,12 @@ import Rating from './Component/Rating/Rating'
 import Tab from './Component/Tab/Tab'
 import CatrProduct from './Component/Products/Cart/CatrProduct';
 
-
+const DataPromis = async () => {
+  const res = await fetch("/CardData.json");
+  const data = await res.json();
+  return data;
+}
+const PromisData = DataPromis();
 
 function App() {
   const [selectTab, setSelectTab] = useState("Products");
