@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import { ToastContainer } from 'react-toastify'
 import './App.css'
 
 import Hero from './Component/Hero/Hero'
@@ -38,6 +39,8 @@ function App() {
       <SimplePricing></SimplePricing>
       <Footer></Footer>
       
+
+      <ToastContainer />
     </>
   )
 }
