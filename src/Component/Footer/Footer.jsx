@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-base-200 py-20'>
-            <footer className=" container footer sm:footer-horizontal  text-base-content">
+            <footer className=" container footer sm:footer-horizontal  text-base-content px-20 sm:px-5">
                 <aside>
                     <a className="text-2xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent">
                         DigiTools
